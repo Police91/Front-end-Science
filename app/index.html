@@ -9,144 +9,147 @@
   <link rel="stylesheet" href="scss/style.css.map">
 </head>
 <body>
-    <header class="header">
-      <a class="logo" href="#">
-        <picture class="logo__img">
-          <img src="src/logo_colored.svg" alt="logo">
-        </picture>
-      </a>
-      
-        <div class="header__inner">
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">ПЕРВЫЙ ЭКРАН</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">ВСТУПЛЕНИЕ</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">ИНФОГРАФИКА</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
-              </li>
-              <li class="menu__list-item">
-                <a class="menu__list-link" href="#">КОНТАКТЫ</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      
-      <div class="header__info">
-        <a href="tel:+38 (096) 622 86 13">+38(096)6228613</a>
-        <a href="tel:+38 (096) 622 86 13">+38(096)6228613</a>
-        <ul>
-            <li><a href="#">EN</a></li>
-            <li><a href="#">UA</a></li>
-            <li><span>RU</span></li>
+
+<div class="mainwrapper">
+<header class="header">
+  <a class="logo" href="#">
+    <picture class="logo__img">
+      <img src="src/logo_colored.svg" alt="logo">
+    </picture>
+  </a>
+  
+    <div class="header__inner">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">ПЕРВЫЙ ЭКРАН</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">ВСТУПЛЕНИЕ</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">ИНФОГРАФИКА</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+          </li>
         </ul>
+      </nav>
     </div>
-    <hr class="hr__line">
-    </header>
-    <section id="slideshow" class="slideshow" data-share="light">
-      <div class="slideshow__gallery">
-          <ul>
-              <li class="slideshow__gallery__item slideshow__gallery__item_active"><img src="images/photo-1.png" alt="slide1"></li>
-              <li class="slideshow__gallery__item"><img src="images/photo-2.png" alt="slide2"></li>
-              <li class="slideshow__gallery__item"><img src="images/photo-3.png" alt="slide3"></li>
-          </ul>
-      </div>
-      <div class="slideshow__content">
-              <img class="slideshow" src="src/logo_big.png" alt="Front-end Science">
-              <h1 class="slideshow__content__title">
-                  Frontend-разработчики<br>
-                  должны быть в теме всего   
-              </h1>
-              <p class="slideshow__content__buttons">
-                  <span></span>
-              <a href="#about">да, должны</a>
-              <a href="#about">конечно, должны</a>
-              </p>
-      </div>
-     
-  </section>
-  <section id="about" class="about" data-share="dark">
-    <div class="resize">
-        <div class="about__logo">
-            <img src="src/logo-about.png" alt="">
-            <h2>Мысли Криса Койера</h2>
-        </div>
-        <div class="about__content">
-            <p>Одна из мыслей, которая поселилась в моей голове: <strong>должен 
-                ли frontend- разработчик быть в курсе всего?</strong></p> 
-            <p>В общем смысле, frontend-разработчик может использоваться
-                и на других рабочих местах. Вся команда разработчиков
-                заканчивает разговор на frontend-разработчике. В этом 
-                смысл моей идеи. </p>
-            <p>Frontend-разработчики создают те вещи, с которыми будут 
-                взаимодействовать люди. Все этапы разработки проходят 
-                вместе с frontend-разработчиком. Возможно, именно поэтому
-                 это такая забавная работа!</p> 
-            <p>Поскольку frontend-разработчик занимает центральное 
-                место в цепочке разработки, и при этом мы имеем дело 
-                с большим количеством разных специалистов, мы должны 
-                понимать их работу и иногда подсказывать, что 
-                и как сделать лучше.
-            </p> 
-            <div class="animated-frame">
-                <div class="animated-frame__content">Frontend-разработчик должен разбираться в дизайне</div>
-            </div>
-            <p>Если frontend-разработчик не является сам по себе дизайнером, 
-                он должен знать, насколько важен дизайн. Он должен иметь 
-                хороший вкус. Он должен знать об инструментах, участвующих 
-                непосредственно в разработке.</p>
-                <p><strong>Frontend-разработчик должен разбираться в работе серверной 
-                части (backend)</strong></p>
-                <p>Даже если вы и не backend-разработчик, то вы явно 
-                осознаёте всю важность серверной части. Вы понимаете, 
-                с чем взаимодействует backend, что передается на сервер, а что нет. Вы знаете об обязанностях backend-разработчика. Вы понимаете, какой язык используется на сервере, и при этом должны уметь объяснить, что должен дать вам backend и что нужно от серверной части frontend-а.</p>
-                <p><strong>Frontend-разработчик должен разбираться в работе сетей</strong></p>
-                <p>Frontend-разработчик понимает, что сайты располагаются 
-                в интернете, данные передаются по сети, и что сеть — 
-                это дикое и непредсказуемое. Необходимо понимать, какие 
-                бывают сети, как они работают, и насколько они бывают 
-                быстрые и надежные.</p>
-        </div>
+  
+  <div class="header__info">
+    <a href="tel:+38 (096) 622 86 13">+38(096)6228613</a>
+    <a href="tel:+38 (096) 622 86 13">+38(096)6228613</a>
+    <ul>
+        <li><a href="#">EN |</a></li>
+        <li><a href="#">UA |</a></li>
+        <li><span>RU</span></li>
+    </ul>
+</div>
+</header>
+<section id="slideshow" class="slideshow" data-share="light">
+  
+<div class="slideshow__gallery">
+  <ul>
+      <li class="slideshow__gallery__item_1 slideshow__gallery__item_active"><img src="images/photo-1.png" alt="slide1"></li>
+      <li class="slideshow__gallery__item_2"><img src="images/photo-2.png" alt="slide2"></li>
+      <li class="slideshow__gallery__item_3"><img src="images/photo-3.png" alt="slide3"></li>
+  </ul>
+
+<!-- </div>
+<div class="slideshow__content">
+      <img class="slideshow" src="src/logo_big.png" alt="Front-end Science">
+      <h1 class="slideshow__content__title">
+          Frontend-разработчики<br>
+          должны быть в теме всего   
+      </h1>
+      <p class="slideshow__content__buttons">
+          <span></span>
+      <a href="#about">да, должны</a>
+      <a href="#about">конечно, должны</a>
+      </p>
+</div> -->
+<!-- 
+</section>
+<section id="about" class="about" data-share="dark">
+<div class="resize">
+    <div class="about__logo">
+        <img src="" alt="">
+        <h2>Мысли Криса Койера</h2>
     </div>
+    <div class="about__content">
+        <p>Одна из мыслей, которая поселилась в моей голове: <strong>должен 
+            ли frontend- разработчик быть в курсе всего?</strong></p> 
+        <p>В общем смысле, frontend-разработчик может использоваться
+            и на других рабочих местах. Вся команда разработчиков
+            заканчивает разговор на frontend-разработчике. В этом 
+            смысл моей идеи. </p>
+        <p>Frontend-разработчики создают те вещи, с которыми будут 
+            взаимодействовать люди. Все этапы разработки проходят 
+            вместе с frontend-разработчиком. Возможно, именно поэтому
+              это такая забавная работа!</p> 
+        <p>Поскольку frontend-разработчик занимает центральное 
+            место в цепочке разработки, и при этом мы имеем дело 
+            с большим количеством разных специалистов, мы должны 
+            понимать их работу и иногда подсказывать, что 
+            и как сделать лучше.
+        </p> 
+        <div class="animated-frame">
+            <div class="animated-frame__content">Frontend-разработчик должен разбираться в дизайне</div>
+        </div>
+        <p>Если frontend-разработчик не является сам по себе дизайнером, 
+            он должен знать, насколько важен дизайн. Он должен иметь 
+            хороший вкус. Он должен знать об инструментах, участвующих 
+            непосредственно в разработке.</p>
+            <p><strong>Frontend-разработчик должен разбираться в работе серверной 
+            части (backend)</strong></p>
+            <p>Даже если вы и не backend-разработчик, то вы явно 
+            осознаёте всю важность серверной части. Вы понимаете, 
+            с чем взаимодействует backend, что передается на сервер, а что нет. Вы знаете об обязанностях backend-разработчика. Вы понимаете, какой язык используется на сервере, и при этом должны уметь объяснить, что должен дать вам backend и что нужно от серверной части frontend-а.</p>
+            <p><strong>Frontend-разработчик должен разбираться в работе сетей</strong></p>
+            <p>Frontend-разработчик понимает, что сайты располагаются 
+            в интернете, данные передаются по сети, и что сеть — 
+            это дикое и непредсказуемое. Необходимо понимать, какие 
+            бывают сети, как они работают, и насколько они бывают 
+            быстрые и надежные.</p>
+    </div>
+</div>
 </section>
 <section id="cases" class="cases">
-    <ul>
-        <li><img src="src/cases1.png" alt="HTML5">
-        <span>
-        <em>1</em>
-        <strong>HTML 5</strong>
-        HyperText Markup Language
-        </span>
-        </li>
+<ul>
+    <li><img src="src/cases1.png" alt="HTML5">
+    <span>
+    <em>1</em>
+    <strong>HTML 5</strong>
+    HyperText Markup Language
+    </span>
+    </li>
+    
+    <li><img src="src/cases2.png" alt="HTML5">
+    <span>
+    <em>2</em>
+    <strong>CSS</strong>
+    Cascading Style Sheets
+    </span>
+    </li>
         
-        <li><img src="src/cases1.png" alt="HTML5">
-        <span>
-        <em>2</em>
-        <strong>CSS</strong>
-        Cascading Style Sheets
-        </span>
-        </li>
-            
-        <li><img src="src/cases1.png" alt="HTML5">
-        <span>
-        <em>3</em>
-        <strong>JS</strong>
-        JavaSkript
-        </span>
-      </li>
-    </ul>
+    <li><img src="src/cases3.png" alt="HTML5">
+    <span>
+    <em>3</em>
+    <strong>JS</strong>
+    JavaSkript
+    </span>
+  </li>
+</ul>
 </section>
 <section id="performance" class="performance"></section>
-<section id="contacts" class="contacts"></section>
-<footer></footer>
+<section id="contacts" class="contacts"></section>-->
+<footer></footer> 
+</div>
 
-    
 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
