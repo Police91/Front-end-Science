@@ -14,33 +14,33 @@
 <header class="header">
   <a class="logo" href="#">
     <picture class="logo__img">
-      <img src="src/logo_colored.svg" alt="logo">
+      <img src="src/logo.png" alt="logo">
     </picture>
   </a>
-  
     <div class="header__inner">
       <nav class="menu">
+        <button class="menu__hamburger">Show/hide navigation menu</button>
         <ul class="menu__list">
           <li class="menu__list-item">
             <a class="menu__list-link" href="#">ПЕРВЫЙ ЭКРАН</a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">ВСТУПЛЕНИЕ</a>
+            <a class="menu__list-link" href="#about">ВСТУПЛЕНИЕ</a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">ИНФОГРАФИКА</a>
+            <a class="menu__list-link" href="#cases">ИНФОГРАФИКА</a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
+            <a class="menu__list-link" href="#performance">ПРОИЗВОДИТЕЛЬНОСТЬ</a>
           </li>
           <li class="menu__list-item">
-            <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+            <a class="menu__list-link" href="#contacts">КОНТАКТЫ</a>
           </li>
         </ul>
       </nav>
     </div>
   
-  <div class="header__info">
+<div class="header__info">
     <a href="tel:+38 (096) 622 86 13">+38(096)6228613</a>
     <a href="tel:+38 (096) 622 86 13">+38(096)6228613</a>
     <ul>
@@ -54,30 +54,29 @@
   
 <div class="slideshow__gallery">
   <ul>
-      <li class="slideshow__gallery__item_1 slideshow__gallery__item_active"><img src="images/photo-1.png" alt="slide1"></li>
-      <li class="slideshow__gallery__item_2"><img src="images/photo-2.png" alt="slide2"></li>
-      <li class="slideshow__gallery__item_3"><img src="images/photo-3.png" alt="slide3"></li>
+      <li class="slideshow__gallery__item_1 slideshow__gallery__item_active"></li>
+      <li class="slideshow__gallery__item_2"></li>
+      <li class="slideshow__gallery__item_3"></li>
   </ul>
 
-<!-- </div>
+</div>
 <div class="slideshow__content">
       <img class="slideshow" src="src/logo_big.png" alt="Front-end Science">
       <h1 class="slideshow__content__title">
-          Frontend-разработчики<br>
-          должны быть в теме всего   
+          <p><strong>Frontend-разработчики</strong>
+            должны быть в теме всего</p>   
       </h1>
       <p class="slideshow__content__buttons">
           <span></span>
       <a href="#about">да, должны</a>
       <a href="#about">конечно, должны</a>
       </p>
-</div> -->
-<!-- 
+</div> 
 </section>
 <section id="about" class="about" data-share="dark">
 <div class="resize">
     <div class="about__logo">
-        <img src="" alt="">
+        <img src="src/logo_colored.svg" alt="Front-end">
         <h2>Мысли Криса Койера</h2>
     </div>
     <div class="about__content">
@@ -119,34 +118,33 @@
 </div>
 </section>
 <section id="cases" class="cases">
-<ul>
-    <li><img src="src/cases1.png" alt="HTML5">
-    <span>
+<ul class="cases__list">
+    <li class="cases__list__item"><img src="src/cases1.png" alt="HTML5">
+    <span class="cases__list__item-text">
     <em>1</em>
     <strong>HTML 5</strong>
     HyperText Markup Language
     </span>
     </li>
-    
-    <li><img src="src/cases2.png" alt="HTML5">
-    <span>
+    <li class="cases__list__item">
+      <img src="src/cases2.png" alt="CSS">
+    <span class="cases__list__item-text">
     <em>2</em>
     <strong>CSS</strong>
     Cascading Style Sheets
     </span>
     </li>
-        
-    <li><img src="src/cases3.png" alt="HTML5">
-    <span>
+    <li class="cases__list__item"><img src="src/cases3.png" alt="JS">
+    <span class="cases__list__item-text">
     <em>3</em>
     <strong>JS</strong>
-    JavaSkript
+    JavaScript
     </span>
   </li>
 </ul>
 </section>
 <section id="performance" class="performance"></section>
-<section id="contacts" class="contacts"></section>-->
+<section id="contacts" class="contacts"></section>
 <footer></footer> 
 </div>
 

@@ -5,22 +5,20 @@
 @import "media";
 
 .header{
-    min-width: 100%;
-    min-height: 90px;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    background-color: #0005;
-    border-bottom: 1px solid white; 
-    z-index: 20;
+  position: fixed;
+	z-index: 20;
+	left: 0;
+	top: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid white;
 }
 .logo{ 
     position: absolute;
-    left: 0;
-    top: 0;
-    padding-left: 60px;
-    padding-top: 10px;   
+    left: 32px;
+    top: 5px;
 }
 .header{
     &__inner{
@@ -35,17 +33,31 @@
         margin-right: 20px;
            
         a{
-            color: #ffff;
+            color: $skyBlueText;
             padding-left: 10px;
         }
-        ul, 
-        li{
+        ul {
+          display: inline-block;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          li {
             display: inline-block;
+            &:not(:first-child) {
+              border-left: 1px solid $skyBlueText;
+            }
+            a, span {
+              padding: 0 10px;
+            }
+          }
         }
     } 
-    
 }
 .menu{
+    display: inline-block;
+    &__hamburger{
+      display: none;
+    }
     &__list{
         display: flex;
         justify-content: space-between;
@@ -57,16 +69,14 @@
             color: #ffff;
             display: block;
             text-align: center;
-            padding: 30px 15px;
+            padding: 30px 30px;
             &:after{
                 position: absolute;
                 content: "";
-
                 display: none;
-                height: 2px;
+                height: 1px;
                 width: 70px;
-                bottom: -14px;
-                
+                bottom: -1px;
                 left: 0;
                 right: 0;
                 text-align: center;
@@ -81,6 +91,7 @@
 }
 
 .slideshow{
+  position: relative;
   &__gallery{
     ul{
       position: relative;
@@ -99,6 +110,7 @@
       transition: left 400ms ease;
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: center;
       &.slideshow__gallery__item{
         &_1{
           background-image: url(/app/images/photo-1.png);
@@ -124,8 +136,137 @@
       }
     }
   }
+  &__content{
+    position: absolute;
+    top: 200px;
+    left: 33%;
+    right: 50%;
+    z-index: 21;
+    &__title{
+      text-align: center;
+      p{
+        width: 650px;
+        @extend %monserat;
+        font-size: 47px;
+        line-height: 62px;
+        color: #ffffff;
+        margin-bottom: -30px;
+      }
+    }
+    &__buttons{
+      margin-top: 60px;
+      a{
+        display:table-cell;
+        text-align: center;  
+        @extend %roboto;
+        font-size: 18px;
+        line-height: 18px;
+        border: 1px solid #ffffff;
+        padding: 20px 70px;
+        color: #ffffff;
+        transition: background-color 2s linear;
+      }
+      a:hover{
+        background-color: #ffffff;
+        color: black;
+      }
+    }
+  }
 }
 
+//Section About//
+.resize{
+  display: flex;
+  max-width: 1260px;
+  background-color: #fff;
+  margin: 150px auto;
+}
+.about__logo{
+    margin-right: 50px;
+  img{
+    margin-top: 20px;
+  }
+  h2{
+    @extend %monserat;
+    font-size: 37px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 20px;
+  }
+}
+.about__content{
+  max-width: 766px; 
+  margin-left: 50px;
+  @extend %monserat;
+  font-size: 22px;
+  p{
+    padding-bottom: 20px;
+  }
+  .animated-frame{
+    width: 767px;
+    height: 173px;
+    background-color: inherit;
+    border: 4px solid #53d0fb;
+    border-radius: 4px;
+    margin: 90px 0 90px 0;
+    transition: background-color 2s linear;
+    &.animated-frame:hover{
+      background-color: #53d0fb;
+      border: 4px solid #000000;
+    }
+    &__content{
+      @extend %monseratBold;
+      font-size: 32px;
+      max-width: 510px;
+      text-align: center;
+      color: #000000;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
+}
+.cases{
+  @extend %monserat;
+  font-size: 18px;
+  height: 458px;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+  &__list{
+    display: flex;
+    justify-content:center;    
+    width: 100%;
+    margin: 0 320px;
+    &__item{
+      position: relative;
+      padding: 0 50px;
+      img{
+        display: block;
+        margin: 0 auto 50px;
+      }
+      &-text{
+        display: block;
+        position: relative;
+        padding: 0 80px;
+
+        em{
+         position: absolute;
+         @extend %monseratBold;
+         font-size: 100px;
+         top: -16px;
+         left: 0; 
+       }
+       strong{
+         display: block;
+         font-size: 30px;
+      }
+    }  
+    }
+  }
+}
 
 
 
