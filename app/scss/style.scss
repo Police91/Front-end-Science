@@ -139,8 +139,13 @@
   &__content{
     position: absolute;
     top: 200px;
-    left: 33%;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
     right: 50%;
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: unset;
     z-index: 21;
     &__title{
       text-align: center;
@@ -154,17 +159,18 @@
       }
     }
     &__buttons{
+      display: flex;
+      justify-content: center;
       margin-top: 60px;
       a{
-        display:table-cell;
-        text-align: center;  
-        @extend %roboto;
+        text-align: center;
         font-size: 18px;
         line-height: 18px;
+        padding: 20px 30px;
         border: 1px solid #ffffff;
-        padding: 20px 70px;
+        width: 226px;
         color: #ffffff;
-        transition: background-color 2s linear;
+        transition: background-color 2s linear;           
       }
       a:hover{
         background-color: #ffffff;
@@ -264,10 +270,90 @@
          font-size: 30px;
       }
     }  
+  }
+  }
+}
+.performance{
+  .performance__content{
+    width: 100%;
+    background-color: #fff;
+    &__title{
+      margin: 150px auto 50px;
+      @extend %monseratBold;
+      text-transform: uppercase;
+      font-size: 37px;
+      line-height: 44px;
+      color: #000000;
+      text-align: center;
+    }
+    &__about{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 100px;
+      &:last-of-type {
+        flex-direction: row-reverse;
+      }
+    &-info{
+      margin-top: 50px;
+      &-title{
+        position: relative;
+        height: 130px;
+        width: 473px;
+        &::after{
+          content: "";
+          width: 120%;
+          top: 0;
+          height: 100%;
+          display: block;
+          border: 3px solid;
+          position: absolute;
+        }
+        &.left::after {
+          left: -10%;
+        }
+        &.right::after {
+          left: -10%;
+        }
+        h5{
+          @extend %monseratBold;
+          font-size: 30px;
+          padding-top: 50px;
+          padding-left: 50px;
+          color: #000000;
+          text-transform: uppercase;
+        }
+      }
+      &-text{
+        width: 330px;
+        height: 120px;
+        margin: 50px;
+        p{
+          @extend %monserat;
+          font-size: 24px;   
+          color: #000000;
+        }
+      }
+      &-link{
+        width: 227px;
+        height: 50px;
+        background-color: #53d0fb;
+        text-align: center;
+        padding: 15px;
+        margin: 50px;
+        &-right{
+          left: 0;
+        }
+        a{
+          @extend %monseratBold;
+          font-size: 18px;
+          line-height: 18px;
+          color: #000000;
+        }
+      }
+    }  
     }
   }
 }
-
 
 
 

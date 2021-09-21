@@ -1,15 +1,15 @@
-.menu__list, .slideshow__content__title p, .about__logo h2, .about__content, .cases {
+.menu__list, .slideshow__content__title p, .about__logo h2, .about__content, .cases, .performance .performance__content__about-info-text p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
-.about__content .animated-frame__content, .cases__list__item-text em {
+.about__content .animated-frame__content, .cases__list__item-text em, .performance .performance__content__title, .performance .performance__content__about-info-title h5, .performance .performance__content__about-info-link a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
-body, .slideshow__content__buttons a {
+body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
@@ -678,8 +678,23 @@ h5 h6 {
 .slideshow__content {
   position: absolute;
   top: 200px;
-  left: 33%;
+  left: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   right: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: unset;
+      -ms-flex-align: unset;
+          align-items: unset;
   z-index: 21;
 }
 
@@ -696,16 +711,22 @@ h5 h6 {
 }
 
 .slideshow__content__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 60px;
 }
 
 .slideshow__content__buttons a {
-  display: table-cell;
   text-align: center;
   font-size: 18px;
   line-height: 18px;
+  padding: 20px 30px;
   border: 1px solid #ffffff;
-  padding: 20px 70px;
+  width: 226px;
   color: #ffffff;
   -webkit-transition: background-color 2s linear;
   transition: background-color 2s linear;
@@ -829,5 +850,102 @@ h5 h6 {
 .cases__list__item-text strong {
   display: block;
   font-size: 30px;
+}
+
+.performance .performance__content {
+  width: 100%;
+  background-color: #fff;
+}
+
+.performance .performance__content__title {
+  margin: 150px auto 50px;
+  text-transform: uppercase;
+  font-size: 37px;
+  line-height: 44px;
+  color: #000000;
+  text-align: center;
+}
+
+.performance .performance__content__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.performance .performance__content__about:last-of-type {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.performance .performance__content__about-info {
+  margin-top: 50px;
+}
+
+.performance .performance__content__about-info-title {
+  position: relative;
+  height: 130px;
+  width: 473px;
+}
+
+.performance .performance__content__about-info-title::after {
+  content: "";
+  width: 120%;
+  top: 0;
+  height: 100%;
+  display: block;
+  border: 3px solid;
+  position: absolute;
+}
+
+.performance .performance__content__about-info-title.left::after {
+  left: -10%;
+}
+
+.performance .performance__content__about-info-title.right::after {
+  left: -10%;
+}
+
+.performance .performance__content__about-info-title h5 {
+  font-size: 30px;
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.performance .performance__content__about-info-text {
+  width: 330px;
+  height: 120px;
+  margin: 50px;
+}
+
+.performance .performance__content__about-info-text p {
+  font-size: 24px;
+  color: #000000;
+}
+
+.performance .performance__content__about-info-link {
+  width: 227px;
+  height: 50px;
+  background-color: #53d0fb;
+  text-align: center;
+  padding: 15px;
+  margin: 50px;
+}
+
+.performance .performance__content__about-info-link-right {
+  left: 0;
+}
+
+.performance .performance__content__about-info-link a {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
