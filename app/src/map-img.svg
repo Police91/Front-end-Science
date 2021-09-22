@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 20" width="14" height="20">
+	<title>футер копия</title>
+	<defs>
+		<image width="14" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAAAXNSR0IArs4c6QAAAeRJREFUOE+Nkj9oFEEUxr9vbzf+Q0gK0UYbwUKE3J5ikUKIaKEgkdtLKzaRiEEstRGsbDQiBsR/YFq59RpBETQ2FhbunAYRq0AqETTByuzMzpM9b9e99Y5zuve993vvm3lDlM50tLE/oTNFwSEA2+BwBcBSWHWfFEtZDIK2vg3BxXKzbvzZOphrjXuv0zgHG0q/FOD4ACiXKTzZrLnPO2AQ6asgrg2DsnwCd4zTkeywNN9K/pviyA1Y+0PEOULyDoAtWQ2JmwxUPAPwfgFcCn3vaLFRQ+kJAd7+1bjCQJkFQC5korU40TrovSjbDpSOAPhd3TBom7sQmc1tCI41a96rMlhX+h2Bw109YdCO5yCdO2TnWeh7p4pgultLZxmA80eXVU4ty27XmNWeCcIFp6Lntd28VkEyAcojCHZlNQI+7KyjruJFgmdK9hIAPwGMlW1LxeztgKeVjFZg1v5nj+m0p747k/+cuoovEbw1BN7Yvu6OPp7kr96/qvQXAPsGwzwb+u5imu8B6x/iGi3fDwA/hr43nq+tz6Jb6bX/gWkPhNVNnwaC/R+KD0LfPVds1mM1SwSRvgziejfW39fdrW8maYaCaUFD6a8C7CRltlkduVe23ndiWhRE8XkAV8LayJ5+j/Ub/EKoDTbjMkQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер копия">
+		<g id="контакты">
+			<g id="контакти">
+				<g id="гео">
+					<use id="noun_765833_cc" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

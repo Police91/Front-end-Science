@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 27" width="11" height="27">
+	<title>футер копия</title>
+	<defs>
+		<image width="11" height="27" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAbCAYAAACqenW9AAAAAXNSR0IArs4c6QAAALRJREFUOE/t0r2JQkEYheHHbBND+zATO5DNTMUaVhQ2FW1g0QZMbMAOtIMNxNDEyA4MXFBG7oVh/OFe0Wwnm/O9c+ZwZiqu1yd6aKIajysJ+4XpDYOLFMM17PBRBO5ifg9MnYcYJ/ABvzim8A/6CRz2k1yLMwcxtBCvNhZPw/Xs5Dc6ifMAy9j59KiBaPYXMheF92XgTRl4FeBRlquFRpJ/hnWmbd/bc37z61/w3/npz/+e6s6XhDTKB6Ag8gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер копия">
+		<g id="соц">
+			<use id="Векторный смарт-объект" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

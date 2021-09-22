@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 25" width="31" height="25">
+	<title>футер копия</title>
+	<defs>
+		<image width="31" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAZCAYAAADJ9/UkAAAAAXNSR0IArs4c6QAAAjZJREFUSEu11kuoT1EUx/HPRUgeRZQQE2RGSckrj7xKSYQiGRhgoJgZSAxIiAyU8shjwoSBkiIUkksGChO5GBDKKyRK67a3/o7//95z7mNN/v3P+a31XXufvdZeTbrOFmETpmIIPuAmjuBGATMLzU3p4VBsxs4O5NIbp7C6Dd+jOIS5WIePWJjh27Af27GnYgIBjoBl7T2moCXDz2NF8j6MSOZ3iWgz09aWkLZKPmMvYqdl+GUsrolwG2vwop2oZ5KuLDzr7mFOhh/DhkKE79iHA/jSIPpTjK9Ivo5l+JThy3GhQZDYquM4hwcFzVsMqwB/g5H5k2Z4LzwusYrXuItHeIVdGFMB3lKrz/DBGI1b6F8hWFXp/XTSW/0y/Cpi9V+xpGrECvpLWJr1GR4NYEuFIB2V7saOInwyYku626IFXynC4/8JrO9GepRunK0f9eB9cDF6bjclcBZra2Pnb56f9UjNZivGdXES0xGd868V4StTXx+EsTXV0Nk8rmFeMUgRHjUeLXNEZ2k1/nFBxYGOxvSPFeHxchqi7vt1UQJxRcdV/Z/Vg4doIk6m387kEJNMbPevKvDQRmIzMD+dg74Vs4i7YjZieKhrjVaexVF2BzGhIrg5zQfv2vKrB48SW5AazqSK0JCfxkZ8a8834KtSXx+IURjQnlOD98/T54lGVcryyoenBKK9VhkOAvIQMZ3Gin+WoiZRcdt7ImbqOGRRmzEiRWLxPOwTXuIZ7qRL4kkVYK32D7ovXb+YJZwyAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер копия">
+		<g id="соц">
+			<use id="Векторный смарт-объект" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+		</g>
+	</g>
+</svg>

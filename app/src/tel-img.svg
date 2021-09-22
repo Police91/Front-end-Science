@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20" width="12" height="20">
+	<title>футер копия</title>
+	<defs>
+		<image width="12" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAYAAAC58NwRAAAAAXNSR0IArs4c6QAAAQhJREFUOE/tkztKBEEURc8b2k4FwUAUXYEyvQg3YJmYaCx+EgMRUzEz8IMYa9yzB2Oxu3UBGoog+AkUrdYrPQ7YNFIzC7CyqnfPu9T72NyVJuzL72E2SeCYuBOfm+Yyf40xHRL/xuzGXO41mLirkrnCvyHdG3YRAoUlmMa7DsKOO0m0EgJc7neA7R6g004SL4WA+aI8kLT28wfTWdqOF4MOWXmIafUfGLhKon8fXOH3Eeu9stpJ2o6Wg43L/a5gqwJekR4wu6wBU0ALuK1N6gxorAKegOFG9kegBEYb788V4IGoHkiTIavuf4y+r4B3IK4DgvMWfAhmGw4yl5ULmI6AkT6L9GJo4xsHgbGGNAgwZwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футер копия">
+		<g id="контакты">
+			<g id="контакти">
+				<g id="телефоны">
+					<use id="noun_698429_cc" href="#img1" transform="matrix(1,0,0,1,0,0)"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

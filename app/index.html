@@ -186,14 +186,54 @@
     </div>
   </div>
 </section>
-<section id="contacts" class="contacts"></section>
-<footer></footer> 
+<section id="contacts" class="contacts">
+  <div class="contacts__container">
+    <div class="contacts__info">
+      <div class="contacts__info-title">
+        <p>контакты</p>
+      </div>
+      <div class="contacts__info-list">
+        <ul style="list-style: none;">
+          <li style="list-style-image: url(/app/src/map-img.svg);">18000, Украина, г. Черкассы, ул. Героев Сталинграда 42/1</li>
+          <li style="list-style-image: url(/app/src/tel-img.svg);">+38 (096) 622 86 13</li>
+          <li style="list-style-image: url(/app/src/mail-img.svg);">web@rubarbs.com</li>
+          <li style="list-style-image: url(/app/src/url-img.svg);">rubarbs.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="contacts__form">
+      <div class="contacts__form-title">
+        <p>напишите нам</p>
+      </div>
+      <div class="contacts__form-box">
+        <form id="form" action="#" method="get">
+          <input type="text" name="user-name" placeholder="ИМЯ" required>
+          <input type="tel" name="phone" id="phone" placeholder="ТЕЛЕФОН" required>
+          <input type="email" name="email" id="email" placeholder="EMAIL" required>
+          <textarea name="text" id="textarea" cols="30" rows="10" placeholder="СООБЩЕНИЕ"></textarea>
+        </form>
+        <button type="submit" class="contacts__form-btn">отправить</button>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__logo">
+      <img src="/app/src/footer-BG.png" alt="Front-end">
+    </div>
+    <div class="footer__social">
+      <a href="https://www.youtube.com/"><img src="/app/src/youtube.svg" alt="Youtube"></a>
+      <a href="https://uk-ua.facebook.com/"><img src="/app/src/facebook.svg" alt="Facebook"></a>
+      <a href="https://twitter.com/?lang=uk"><img src="/app/src/tweeter.svg" alt="Tweeter"></a>
+    </div>
+  </div>
+  <p class="copyright">© 2017 «Frontend» |  сайт разработан в Rubarb digital</p>
+</footer> 
 </div>
-
-
-  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
   <script src="js/libs.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js"></script>  
 </body>
 </html>
